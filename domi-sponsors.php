@@ -3,7 +3,7 @@
 /**
 * Plugin Name: Sponsoren
 * Plugin URI: 
-* Description: Funktionalität Sponsoren. Darstellung im Theme via template-sponsors.php
+* Description: Funktionalität für Sponsoren. Darstellung im Theme via template-sponsors.php
 * Version: 1.0
 * Author: Dominique Müller
 * Author URI: 
