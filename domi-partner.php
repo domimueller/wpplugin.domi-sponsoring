@@ -18,10 +18,10 @@
 $plugin_url = WP_PLUGIN_DIR . '/' . basename(dirname(__FILE__));
 
 /* include Scripts*/
-function domi_sponsors_customcss() {
-    wp_enqueue_style( 'sponsorcss',  plugin_dir_url( __FILE__ ) . '/css/custom.css' );                      
+function domi_custom_customcss() {
+    wp_enqueue_style( 'customcss',  plugin_dir_url( __FILE__ ) . '/css/custom.css' );                      
 }
-add_action( 'wp_enqueue_scripts', 'domi_sponsors_customcss');
+add_action( 'wp_enqueue_scripts', 'domi_custom_customcss');
 
 
 /* INCLUDE FILES */

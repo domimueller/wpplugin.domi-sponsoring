@@ -5,12 +5,12 @@
 
         acf_add_local_field_group(array(
             'key' => 'group_617d6063e66ab',
-            'title' => 'Felder für Sponsoren',
+            'title' => 'Felder für Partner',
             'fields' => array(
                 array(
                     'key' => 'field_617d617a44cce',
-                    'label' => 'Sponsor URL',
-                    'name' => 'sponsor_url',
+                    'label' => 'Partner URL',
+                    'name' => 'Partner_url',
                     'type' => 'text',
                     'instructions' => 'Bitte vollständige URL für die Verlinkung mit der Partnerwebsite eingeben.',
                     'required' => 0,
@@ -32,7 +32,7 @@
                     array(
                         'param' => 'post_type',
                         'operator' => '==',
-                        'value' => 'domi_sponsors_cpt',
+                        'value' => 'domi_partners_cpt',
                     ),
                 ),
             ),
